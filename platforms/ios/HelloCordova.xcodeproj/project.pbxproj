@@ -39,12 +39,12 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		548BF35A6C1942F082DA3315 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B41073199584C638DB4531D /* CDVLogger.m */; };
-		24C3D66DA0F5483A824656FC /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 790416119CBD49B6B68C684A /* CDVDevice.m */; };
-		288DE2C30B394170BEBD29D2 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3771A3FBC279489EA7A15B98 /* CDVSplashScreen.m */; };
-		2AFC203EB1DD4FB79291D707 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E6587EEBF47D588250057 /* CDVViewController+SplashScreen.m */; };
-		D45190B07E3F42C6BB79AF2A /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B57A5D85A8D4C0580908496 /* CDVStatusBar.m */; };
-		36AC8A05B66140829EBB381D /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBE6CED9714584BAA6BB6C /* IonicKeyboard.m */; };
+		A35DBCBEA3094B9CBED8F4E8 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF71339007443ABB4B2C38 /* CDVLogger.m */; };
+		D2812D811415441B858B4023 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B39CF1C4D4CD8969245A5 /* CDVDevice.m */; };
+		16419FDDB38C4004A6D35874 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B0F76DB2C475B97A0BC8F /* CDVSplashScreen.m */; };
+		53A08E6412C144ADBD4AC97F /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 195F1D0582C24E51963BE792 /* CDVViewController+SplashScreen.m */; };
+		5FC39CFDEE194803A0EFD7FB /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 716586F231F64D26A1107A42 /* CDVStatusBar.m */; };
+		C45BEB5F0638498EA286D582 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4909F4527465D85378C25 /* IonicKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,18 +110,18 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloCordova/config.xml"; sourceTree = "<group>"; };
-		0B41073199584C638DB4531D /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		8C7369348DAF42AB8F9FB5D1 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		790416119CBD49B6B68C684A /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		2C5E55890DBE4CA49249079B /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		3771A3FBC279489EA7A15B98 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1F0E6587EEBF47D588250057 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		A388EC34727E4AB0A9546970 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		5D6CAE925CB843FB938DADA5 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		5B57A5D85A8D4C0580908496 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		131ABBAD98554DCFAD3DF685 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		99CBE6CED9714584BAA6BB6C /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		9C760B2C02044D11A93D35AE /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		60AF71339007443ABB4B2C38 /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FFAE22757DF64FB6B2E2E704 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		752B39CF1C4D4CD8969245A5 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9ED4B313783462B8651F062 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		492B0F76DB2C475B97A0BC8F /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		195F1D0582C24E51963BE792 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		88B5EC86953A4F4EB156D817 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5F2AC3169C424E76A323E501 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		716586F231F64D26A1107A42 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1FB5F08E4F384758A391E832 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9D4909F4527465D85378C25 /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		BF600A250D2E4D669AB572B9 /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,18 +220,18 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				0B41073199584C638DB4531D /* CDVLogger.m */,
-				8C7369348DAF42AB8F9FB5D1 /* CDVLogger.h */,
-				790416119CBD49B6B68C684A /* CDVDevice.m */,
-				2C5E55890DBE4CA49249079B /* CDVDevice.h */,
-				3771A3FBC279489EA7A15B98 /* CDVSplashScreen.m */,
-				1F0E6587EEBF47D588250057 /* CDVViewController+SplashScreen.m */,
-				A388EC34727E4AB0A9546970 /* CDVSplashScreen.h */,
-				5D6CAE925CB843FB938DADA5 /* CDVViewController+SplashScreen.h */,
-				5B57A5D85A8D4C0580908496 /* CDVStatusBar.m */,
-				131ABBAD98554DCFAD3DF685 /* CDVStatusBar.h */,
-				99CBE6CED9714584BAA6BB6C /* IonicKeyboard.m */,
-				9C760B2C02044D11A93D35AE /* IonicKeyboard.h */,
+				60AF71339007443ABB4B2C38 /* CDVLogger.m */,
+				FFAE22757DF64FB6B2E2E704 /* CDVLogger.h */,
+				752B39CF1C4D4CD8969245A5 /* CDVDevice.m */,
+				F9ED4B313783462B8651F062 /* CDVDevice.h */,
+				492B0F76DB2C475B97A0BC8F /* CDVSplashScreen.m */,
+				195F1D0582C24E51963BE792 /* CDVViewController+SplashScreen.m */,
+				88B5EC86953A4F4EB156D817 /* CDVSplashScreen.h */,
+				5F2AC3169C424E76A323E501 /* CDVViewController+SplashScreen.h */,
+				716586F231F64D26A1107A42 /* CDVStatusBar.m */,
+				1FB5F08E4F384758A391E832 /* CDVStatusBar.h */,
+				F9D4909F4527465D85378C25 /* IonicKeyboard.m */,
+				BF600A250D2E4D669AB572B9 /* IonicKeyboard.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -416,12 +416,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				548BF35A6C1942F082DA3315 /* CDVLogger.m in Sources */,
-				24C3D66DA0F5483A824656FC /* CDVDevice.m in Sources */,
-				288DE2C30B394170BEBD29D2 /* CDVSplashScreen.m in Sources */,
-				2AFC203EB1DD4FB79291D707 /* CDVViewController+SplashScreen.m in Sources */,
-				D45190B07E3F42C6BB79AF2A /* CDVStatusBar.m in Sources */,
-				36AC8A05B66140829EBB381D /* IonicKeyboard.m in Sources */,
+				A35DBCBEA3094B9CBED8F4E8 /* CDVLogger.m in Sources */,
+				D2812D811415441B858B4023 /* CDVDevice.m in Sources */,
+				16419FDDB38C4004A6D35874 /* CDVSplashScreen.m in Sources */,
+				53A08E6412C144ADBD4AC97F /* CDVViewController+SplashScreen.m in Sources */,
+				5FC39CFDEE194803A0EFD7FB /* CDVStatusBar.m in Sources */,
+				C45BEB5F0638498EA286D582 /* IonicKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
